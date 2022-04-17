@@ -1,7 +1,7 @@
 const express = require("express");
 const config = require("./config");
 const { log } = require("./handlers/logging");
-const { limiter } = require("./middlewares/limiter")
+const { limiter } = require("./middlewares/ratelimit")
 
 const app = express();
 const port = config.port || 443
