@@ -1,0 +1,21 @@
+{
+	"name": "random-user-generator",
+	"version": "1.0.0",
+	"description": "A full-stack random user generator made by Martin McWatters.",
+	"main": "server/server",
+	"scripts": {
+		"serve": "nodemon server/server",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "@sudo-442",
+	"license": "MIT",
+	"devDependencies": {
+		"express": "^4.17.3",
+		"express-rate-limit": "^6.3.0",
+		"nodemon": "^2.0.15"
+	},
+	"dependencies": {
+		"react": "^18.0.0",
+		"react-dom": "^18.0.0"
+	}
+}
