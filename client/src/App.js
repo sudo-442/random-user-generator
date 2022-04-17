@@ -35,6 +35,7 @@ class App extends Component {
 						style={{
 							backgroundColor: "#5f3dc4",
 							fontSize: "1.15em",
+							cursor: "pointer",
 							border: "none",
 							borderRadius: "15px",
 							margin: "20px",
